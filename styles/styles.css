@@ -1,0 +1,64 @@
+/****************
+        GLOBAL
+*****************/
+html {
+    font-family: 'Roboto', sans-serif; 
+    
+} 
+
+
+
+
+/******************
+        HOME
+*******************/        
+#home {
+    height: 800px;
+    width: 100%;
+}
+
+#navbar {
+    background-color: #939FAF;
+}
+
+.homeText h1 {
+    font-size: 50px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.homeText {
+    color:#575B60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.bgImgHome {
+    background-color: rgb(194, 194, 199);
+    background-image: url("/imgs/jesus-kiteque-224069-unsplash.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+#navbar a {
+    color: #fff;
+    padding: 10px;
+}
+
+.homeText h2 {
+    font-size: 20px; 
+    margin: 0;
+    margin-top: 10px;
+}
+
+.homeText p {
+    font-size: 10px;
+}

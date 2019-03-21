@@ -15,17 +15,18 @@
     <section id="home">
         <div class ="bgImgHome">
             <nav id="navbar">
+                <a href="#home"><i class="fas fa-home"></i></a>
                 <a href="#aboutMe"><i class="far fa-address-card" data></i>About</a>
-                <a href="#"><i class="fas fa-bolt"></i>Skills</a>
-                <a href="#"><i class="fas fa-briefcase"></i>Work</a>
-                <a href="#"><i class="fas fa-user-circle"></i>Contact</a>
+                <a href="#skills"><i class="fas fa-bolt"></i>Skills</a>
+                <a href="#projects"><i class="fas fa-briefcase"></i>Work</a>
+                <a href="#contact"><i class="fas fa-user-circle"></i>Contact</a>
             </nav>
             <div class="homeText">
                 <h1>Hi there! I'm <span>Sam</span></h1>
                 <h4 >I am a <span>Full Stack Developer</span> currently based in Sydney Australia.</h4 > 
                 <h4 class="secondH4">I enjoy bringing digital spaces to life! </h4 >
                 <p>MERN / Rails</p>
-                <a href="#">Contact</a>
+                <a href="#contact" class="buttonLink">Contact</a>
             </div>
         </div>
     </section>
@@ -35,32 +36,53 @@
     <section id="aboutMe">
         <div class="aboutContent">
             <h3>About Me</h3>
-            <p>I was born and raised in Sydney, Australia. 
+            <p>My name is Sam Conway, I was born and raised in Sydney, Australia. 
                I came from a sporting background, but always had a love for technology.
                I have lived in the UK & Europe, but currently reside in Australia.
-               The capabilties of the web have always fascinated me, and its great
-               to   </p>
+               The capabilties of the web have always fascinated me, so I decided to get involved!  </p>
         </div>
-        
+            <!-- <div class="img-comp-container">
+              <div class="img-comp-img">
+                <img src="/imgs/slide 2.jpg" width="546" height="284" alt="Me & Friends">
+              </div>
+              <div class="img-comp-img img-comp-overlay">
+                <img src="/imgs/slide 3.jpg" width="546" height="284" alt="Me Playing Football">
+              </div>
+            </div> -->
     </section>
+
+
     <section id="skills">
-        <div>
+        <div class="skillsContent">
             <h3>Skills</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Ruby</li>
-                <li>MERN Stack</li>
-            </ul>
+          <div class="logoContainer">
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="/imgs/html.png" alt="HTML5 Logo"></a>
+            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img src="/imgs/CSS-Logo.png" alt="CSS3 Logo"></a>
+            <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" class="jsPos"><img src="/imgs/js.jpeg" alt="Javascript Logo"></a>
+            <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"><img src="/imgs/Ruby_On_Rails-300x300.png" alt=""></a>
+          </div>
+          <div class="mLogoContainer">
+            <a href=""><img src="/imgs/mongo.jpeg" alt="MongoDB Logo"></a>
+            <a href=""><img src="/imgs/tech-expressjs.png" alt="ExpressJS Logo"></a>
+            <a href=""><img src="/imgs/reactjs.png" alt="ReactJS Logo"></a>
+            <a href=""><img src="/imgs/nodejs.png" alt="NodeJS Logo"></a>
+          </div>
+          
 
         </div>
 
     </section>
     <section id="projects">
-
+        <div class="projectsContent">
+            <h3>Projects</h3>
+        </div>
     </section>
     <section id="contact">
+        <div class="contactContent">
+            <h3>Contact</h3>
+        </div>
 
     </section>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>

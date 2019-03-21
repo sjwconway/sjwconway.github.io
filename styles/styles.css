@@ -7,6 +7,14 @@ html {
     scroll-behavior: smooth;
 } 
 
+ul {
+    list-style: none;
+}
+
+ img {
+  max-width: 100%;
+  height: auto;
+} 
 
 
 
@@ -18,6 +26,20 @@ html {
     margin-top: 10vw;
     margin-left: 10vw;
 }
+
+.buttonLink {
+    background-color: #575B60;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buttonLink:hover, .buttonLink:active {
+    background-color: #939FAF;
+    color: black;
+  }
 
 .homeText button {
     margin-top: 80px;
@@ -41,6 +63,7 @@ html {
 }
 
 #navbar {
+    z-index: 1;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -50,11 +73,11 @@ html {
 
 .homeText h1 {
     /* font-size: 10vw; */
-    margin: 0 auto;
+    margin-top: 100px;
     text-transform: capitalize;
     font-weight: 300;
-    padding-bottom: 20px;
     font-size: 3em;
+
 }
 .homeText {
     color:#575B60;
@@ -62,7 +85,7 @@ html {
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     height: 50vh;
     text-align: center;
     line-height: 2;
@@ -83,6 +106,7 @@ html {
 #navbar a {
     color: #fff;
     padding: 10px;
+    font-size: 0.8em;
 }
 
 .homeText h4 {
@@ -101,7 +125,7 @@ html {
 #aboutMe {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     background-color: rgb(240, 241, 243);
 }
@@ -109,22 +133,175 @@ html {
 .aboutContent  {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 25%;
     width: 100%;
 }
 
 .aboutContent h3 {
-    padding-top: 15px;
+    padding-top: 40px;
     align-self: center;
     font-weight: 300;
-    font-size: 5vw;
+    font-size: 2.5em;
     margin: 0;
 }
 
 .aboutContent p {
     justify-self: flex-start;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 10px;
     text-align: center;
+    font-size: 1em;
+    line-height: 20px;
+}
 
+
+/****************
+    IMG GALLERY
+****************/
+
+* {box-sizing: border-box;}
+/* 
+.imgsContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.img-comp-container {
+  display: inline-block;
+  position: relative;
+  width: 65%;
+  left: 35%;
+  /* height: 284px; /*should be the same height as the images*/
+ /* }   */
+
+/* .img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  /* width: 40px;
+  height: 40px;
+  background-color: #939FAF;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.img-comp-img img:hover {
+  background-color: rgb(0, 108, 248);
+}  */
+
+/****************
+     SKILLS
+****************/
+
+#skills {
+    height: 100vh;
+}
+
+.skillsContent {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skillsContent h3 {
+    align-self: center;
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+.logoContainer a {
+  transition-duration: 0.6s;
+}
+.logoContainer a:hover {
+  transform: scale(0.5);
+  transition-duration: 0.6s;
+}
+
+.jsPos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.jsPos img {
+  align-self: flex-end;
+}
+
+.mLogoContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mLogoContainer a {
+  transition-duration: 0.6s;
+}
+
+.mLogoContainer a:hover {
+  transform: scale(0.5);
+  transition-duration: 0.6s;
+}
+
+
+/***************
+    PROJECTS
+***************/
+
+#projects {
+    background-color: rgb(240, 241, 243);
+    height: 80vh;
+    width: 100%;
+}
+
+.projectsContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsContent h3 {
+    padding-top: 40px;
+    align-self: center;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+/****************
+    CONTACTS
+****************/
+
+#contact {
+    height: 80vh;
+    width: 100%;
+    background-color: #575B60;
+}
+
+.contactContent h3 {
+    color: #fff;
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 300;
+    font-size: 1.5em;
 }

@@ -470,6 +470,7 @@ ul {
   text-decoration: none;
   color: white;
   padding: 2vw;
+  font-size: 2vw;
   transition-duration: 0.5s;
 }
 

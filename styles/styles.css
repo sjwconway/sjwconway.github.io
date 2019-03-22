@@ -11,20 +11,22 @@ ul {
     list-style: none;
 }
 
- img {
-  max-width: 100%;
-  height: auto;
-} 
+  
 
 
 
 /******************
         HOME
 *******************/        
+
+
+
+
+
+
 .homeText a {
     align-self: flex-start;
     margin-top: 10vw;
-    margin-left: 10vw;
 }
 
 .buttonLink {
@@ -56,7 +58,7 @@ ul {
 
 
 #home {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     height: 100vh;
     width: 100%;
@@ -76,7 +78,7 @@ ul {
     margin-top: 100px;
     text-transform: capitalize;
     font-weight: 300;
-    font-size: 3em;
+    font-size: 3vw;
 
 }
 .homeText {
@@ -101,32 +103,52 @@ ul {
 
 #navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #navbar a {
     color: #fff;
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 1.2vw;
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+}
+
+#navbar a:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  
+  }
+
+  .homeBtn {
+    align-self: flex-start;
+  }
+
+.contactbutton {
+  align-self: center;
 }
 
 .homeText h4 {
-    font-size: 1em; 
+    font-size: 1vw; 
     margin: 0;
     
 }
 
 .homeText p {
-    font-size: 0.7em;
+    font-size: 0.7vw;
 }
+
+
 
 /***************
     ABOUT ME
 ***************/
 #aboutMe {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100%;
+    width: 100%; */
+    padding-bottom: 10vh;
     background-color: rgb(240, 241, 243);
 }
 
@@ -141,7 +163,7 @@ ul {
     padding-top: 40px;
     align-self: center;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2vw;
     margin: 0;
 }
 
@@ -151,17 +173,37 @@ ul {
     padding-right: 20%;
     margin-bottom: 10px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1vw;
     line-height: 20px;
 }
 
+.aboutContent img {
+  border: 2px solid red;
+}
+
 .aboutImgs_1 {
-  padding-left: 20%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.aboutImgs_1 img {
+  display: block;
+  width: 20vw;
+  height: auto;
+  margin: 2vh;
 }
 
 .aboutImgs_2 {
-  padding-left: 20%;
+  display: flex;
+  justify-content: center;
+  
+}
 
+.aboutImgs_2 img {
+  display: block;
+  width: 20vw;
+  height: auto;
+  margin: 2vh;
 }
 
 .aboutImgs_1 img {
@@ -237,7 +279,7 @@ ul {
 ****************/
 
 #skills {
-    height: 100vh;
+    
 }
 
 .skillsContent {
@@ -249,9 +291,9 @@ ul {
 .skillsContent h3 {
     align-self: center;
     margin: 0;
-    padding-top: 40px;
+    padding-top: 2vh;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2vw;
 }
 
 .logoContainer {
@@ -296,8 +338,12 @@ ul {
 
 
 /***************
-    PROJECTS
+      WORK
 ***************/
+
+.workHistoryContainer {
+  
+}
 
 #projects {
     background-color: rgb(240, 241, 243);
@@ -305,23 +351,35 @@ ul {
     width: 100%;
 }
 
-.projectsContent {
-    display: flex;
-    flex-direction: column;
+#projects h3 {
+  padding-top: 2vh;
+  margin: 0 auto;
+  font-size: 2vw;
 }
 
-.projectsContent h3 {
-    padding-top: 40px;
+.projectsContent {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
+.projectsContent ul {
+  font-size: 1.5vw;
+}
+
+/* .projectsContent h3 {
+    padding-top: 1vh;
     align-self: center;
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 0.5em;
     margin: 0 auto;
-}
+} */
 
 .projectsImgContainer {
   position: relative;
   text-align: center;
-  color: white;
+  color:#575B60;
+  padding: 0;
 }
 
 .centeredTxt {
@@ -331,12 +389,10 @@ ul {
 }
 
 .divTxt {
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
-.projectsImgContainer {
-  padding-top: 20px;
-}
+
 
 .projectsImgContainer a {
   transition-duration: 0.5s;
@@ -346,6 +402,25 @@ ul {
   transition-duration: 0.5s;
   filter: drop-shadow(30px 10px 4px #575B60);
 }
+
+.projectsImgContainer h4 {
+  margin: 0;
+}
+.workHistoryContainer h4 {
+  align-self: center;
+}
+
+.workHistoryContainer ul {
+  padding: 0;
+}
+
+#projects h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+
 
 
 
@@ -358,15 +433,56 @@ ul {
 ****************/
 
 #contact {
-    height: 80vh;
     width: 100%;
     background-color: #575B60;
+    font-weight: 300;
 }
 
-.contactContent h3 {
+.contactContent {
+    display: inline-block;
     color: #fff;
     margin: 0;
     padding-top: 40px;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 2vw;
+    padding-left: 2.5vw;
+}
+
+.contactContent h3 {
+  font-weight: 300;
+}
+
+.contactContent li {
+ font-weight: 300; 
+ font-size: 1.5vw;
+}
+
+
+.contactContent ul {
+  padding: 0;
+}
+
+.mediaIcons {
+  display: flex;
+  justify-content: center;
+}
+.mediaIcons a {
+  text-decoration: none;
+  color: white;
+  padding: 2vw;
+  transition-duration: 0.5s;
+}
+
+.mediaIcons a:hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+.mediaIcons i {
+  text-decoration: none;
+  
+}
+
+@media only screen and (max-width: 768px) {
+
 }

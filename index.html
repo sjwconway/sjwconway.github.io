@@ -15,18 +15,23 @@
     <section id="home">
         <div class ="bgImgHome">
             <nav id="navbar">
-                <a href="#home"><i class="fas fa-home"></i></a>
-                <a href="#aboutMe"><i class="far fa-address-card" data></i>About</a>
-                <a href="#skills"><i class="fas fa-bolt"></i>Skills</a>
-                <a href="#projects"><i class="fas fa-briefcase"></i>Work</a>
-                <a href="#contact"><i class="fas fa-user-circle"></i>Contact</a>
+             
+                  <a href="#home" class="homeBtn"><i class="fas fa-home"></i></a>
+                  <a href="#aboutMe">About</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#projects">Work</a>
+                  <a href="#contact">Contact</a>
+             
+               
             </nav>
             <div class="homeText">
                 <h1>Hi there! I'm <span>Sam</span></h1>
                 <h4 >I am a <span>Full Stack Developer</span> currently based in Sydney Australia.</h4 > 
                 <h4 class="secondH4">I enjoy bringing digital spaces to life! </h4 >
                 <p>MERN / Rails</p>
-                <a href="#contact" class="buttonLink">Contact</a>
+                <div class="contactbutton">
+                    <a href="#contact" class="buttonLink">Contact</a>
+                </div>
             </div>
         </div>
     </section>
@@ -36,10 +41,12 @@
     <section id="aboutMe">
         <div class="aboutContent">
             <h3>About Me</h3>
-            <p>My name is Sam Conway, I was born and raised in Sydney Australia. 
-               I came from a sporting background, but always had a love for technology.
-               I have lived in the UK & Europe, but currently reside in Australia.
-               The capabilties of the web have always fascinated me, so I decided to get involved! </p>
+            
+
+            <p>I was born and raised in Sydney Australia. Sport was and is still a big part
+              of my life. After succumbing to injuries, I stumbled across programming, and I haven't
+            looked back! I love the challenge and the endless possibilites that programming offers. Besides from
+          banging my head agaisnt the wall in frustration at times, my journey in tech has been an absolute blast! </p>
 
                <div class="aboutImgs_1">
                 <img src="/imgs/friends 373x254.jpg" alt="">
@@ -76,10 +83,10 @@
             <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank"><img src="/imgs/Ruby_On_Rails-300x300.png" alt=""></a>
           </div>
           <div class="mLogoContainer">
-            <a href=""><img src="/imgs/mongo.jpeg" alt="MongoDB Logo"></a>
-            <a href=""><img src="/imgs/tech-expressjs.png" alt="ExpressJS Logo"></a>
-            <a href=""><img src="/imgs/reactjs.png" alt="ReactJS Logo"></a>
-            <a href=""><img src="/imgs/nodejs.png" alt="NodeJS Logo"></a>
+            <a href="https://www.mongodb.com/" target="_blank"><img src="/imgs/mongo.jpeg" alt="MongoDB Logo"></a>
+            <a href="https://expressjs.com/" target="_blank"><img src="/imgs/tech-expressjs.png" alt="ExpressJS Logo"></a>
+            <a href="https://reactjs.org/" target="_blank"><img src="/imgs/reactjs.png" alt="ReactJS Logo"></a>
+            <a href="https://nodejs.org/en/" target="_blank"><img src="/imgs/nodejs.png" alt="NodeJS Logo"></a>
           </div>
           
 
@@ -87,18 +94,52 @@
 
     </section>
     <section id="projects">
+      <h3>Work</h3>
         <div class="projectsContent">
-            <h3>Projects</h3>
-            <div class="projectsImgContainer">
-              <a href="https://github.com/keshibat/CoderAcademy_project1" target="_blank"><img src="/imgs/seinfeldResize.jpg" alt="Terminal App"></a>
-              <div class="centeredTxt divTxt">Terminal App (Ruby)</div>
-            </div>
+          <div class="workHistoryContainer">
+            <h4>Work History</h4>
+            <hr>
+            <ul>
+              <li>2010-2012: Professional football Czech 2. Liga Fk Banik Most</li>
+              <li>2012-2013: Sine Industries Office Administrator & Semi pro football</li>
+              <li>2013-2014: Mcdonalds Corporate IT Foundation</li>
+              <li>2015-2017: Sap Coach NPL TAS and Semi pro football</li>
+              <li>2018: Sine Indsustres TA</li>
+              <li>2019: CA Academy (Fast Track)</li>
+            </ul>
+            <hr>
+          </div>
+          <div class="projectsImgContainer">
+            <h4>Projects</h4> <p>Terminal App (Ruby-2019)</p> 
+            
+            <a href="https://github.com/keshibat/CoderAcademy_project1" target="_blank"><img src="/imgs/seinfeldResize.jpg" alt="Terminal App"></a>
+         
+            
+      
+          </div>
+            
         </div>
     </section>
     <section id="contact">
         <div class="contactContent">
             <h3>Contact</h3>
+            <hr>
+            <ul>
+              <li><strong>Name:</strong>   <em>Sam Conway</em></li>
+              <li><strong>Number:</strong>   <em>0457 000 332</em></li>
+              <li><b>Email:</b>   <em>sjwconway@hotmail.com</em></li>
+            </ul>
+            <hr>
         </div>
+        <div class="mediaIcons">
+            <a href="https://www.instagram.com/sjwconway/" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sam-conway-859774ab/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/sam.conway.965" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/SamConw30882757" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/sjwconway" title="Github"><i class="fab fa-github"></i></a>
+              
+            
+          </div>
 
     </section>
     <script src="/js/scripts.js"></script>

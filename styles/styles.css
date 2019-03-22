@@ -314,8 +314,43 @@ ul {
     padding-top: 40px;
     align-self: center;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 2.5em;
+    margin: 0 auto;
 }
+
+.projectsImgContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centeredTxt {
+  position: absolute;
+  top: 8%;
+  left: 58%;
+}
+
+.divTxt {
+  font-size: 1.5em;
+}
+
+.projectsImgContainer {
+  padding-top: 20px;
+}
+
+.projectsImgContainer a {
+  transition-duration: 0.5s;
+}
+
+.projectsImgContainer a:hover {
+  transition-duration: 0.5s;
+  filter: drop-shadow(30px 10px 4px #575B60);
+}
+
+
+
+
+
 
 
 /****************

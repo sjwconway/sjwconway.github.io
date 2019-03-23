@@ -16,3 +16,5 @@ The site aims to spark interest in possible future employers, by displaying skil
 * Greyscale effects on some imgs
 * Hover effects
 
+#### Screenshots
+[home section](READMEimgs/home.png)

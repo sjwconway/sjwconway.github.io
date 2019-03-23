@@ -19,3 +19,19 @@ The site aims to spark interest in possible future employers, by displaying skil
 #### Screenshots
 ![home section](README_imgs/home.jpg)
 ![skills section](README_imgs/skills.png)
+
+#### Target Audience
+Any potential future employers, other developers who may be looking for inspiration to create their own portfolio website.
+
+#### Tech Stack
+* HTML
+* CSS
+* GitHub
+* Trello
+* Pin Interest
+
+### Design Docs & Planning
+
+#### Wireframe
+
+#### Trello

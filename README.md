@@ -17,4 +17,4 @@ The site aims to spark interest in possible future employers, by displaying skil
 * Hover effects
 
 #### Screenshots
-[home section](READMEimgs/home.png)
+[home section](/READMEimgs/home.png)

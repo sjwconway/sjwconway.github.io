@@ -33,10 +33,10 @@ Any potential future employers, other developers who may be looking for inspirat
 ### Design Docs & Planning
 
 #### Wireframe
-![mobile](README_imgs/Website_Mobile.png)
+![Mobile](README_imgs/Website_Mobile.png)
 ![PC](README_imgs/Website_PC.png)
 
 #### Trello
 ![Trello_1](README_imgs/Trello_Web_1.png)
 ![Trello_2](README_imgs/Trello_Web_2.png)
-![Trello_3](README_imgs/trello_web_3.png)
+![trello_3](README_imgs/trello_web_3.png)

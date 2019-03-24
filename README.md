@@ -39,4 +39,4 @@ Any potential future employers, other developers who may be looking for inspirat
 #### Trello
 ![Trello_1](README_imgs/Trello_Web_1.png)
 ![Trello_2](README_imgs/Trello_Web_2.png)
-![Trello_3](README_imgs/Trello_web_3.png)
+![Trello_3](README_imgs/trello_web_3.png)

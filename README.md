@@ -37,3 +37,6 @@ Any potential future employers, other developers who may be looking for inspirat
 ![PC](README_imgs/Website_PC.png)
 
 #### Trello
+![Trello_1](READE_imgs/Trello_Web_1.png)
+![Trello_2](READE_imgs/Trello_Web_2.png)
+![Trello_3](READE_imgs/Trello_Web_3.png)

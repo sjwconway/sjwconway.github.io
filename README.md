@@ -52,7 +52,7 @@ Domains are the combination of numbers that make up that said websites address. 
 
 So in Summary the relationships between can be describe in the following way:
 Client has typed a DNS(rememberal name) into a web browser.
-web browser sends an HTTP request to the web server is stroing that address, asking it to send a copy of the website back to the Client. That message and all other data sent between Client and Server, is sent across the Clients internet connection using TCP/IP.
+web browser sends an HTTP request to the web server is storing that address, asking it to send a copy of the website back to the Client. That message and all other data sent between Client and Server, is sent across the Clients internet connection using TCP/IP.
 
 #### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
 One of the main aspects of the internet that has contributed to the world today, would have to be the dramatic improvement of Communication.
